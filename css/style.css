@@ -1,0 +1,546 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #212A2F;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    max-width: 1284px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.logo img {
+    width: auto ;
+    height: 37px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box1 li {
+    padding-left:10px ;
+}
+
+li > a {
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    font-size: 12px;
+}
+
+
+.box2 {
+    display: flex;
+    align-items: center;
+}
+
+.li1 {
+    padding-right: 30px;
+}
+
+.box2 > li > img {
+    width: 25px;
+    height:25px;
+    margin-left: 18px;
+}
+
+.nav1 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 27px;
+}  
+
+.first-section {
+    background-image: url('https://abrakadabra.fun/uploads/posts/2022-01/1643508902_3-abrakadabra-fun-p-fon-dlya-pokaza-mod-4.jpg');
+    max-width: 100% ;
+    height:740px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text > h1,h3 {
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.text h1 {
+    font-size: 72px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.text > h3 {
+    font-size:16px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.text .button {
+    margin: 0 auto;
+    margin-top: 207px;
+}
+
+.text .button button {
+    width: 180px;
+    height: 48px;
+    margin-right: 24px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    color: #212A2F;  
+}
+
+.box-img {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.hr-1 {
+    width: 180px;
+}
+
+.hr-or {
+    width: 1236px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 119px;
+}
+
+.section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #212A2F;
+    letter-spacing: 0.5px;
+}
+
+.box-img h3 {
+    color: #212A2F;
+}
+
+.button-img {
+    width: 396px;
+    height: 513px;
+    margin: 34px 24px;
+}
+
+.button-img .img {
+    width: 396px ;
+    height: 396px ;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.button-img .img:hover {
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.img1 {
+    background-image: url(../img/GettyImages-1345021711.webp);
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(../img/paris-fashion-week-street-style-spring-2024-index-651c402b004b2.avif);
+}
+
+.img3 {
+    background-image: url(../img/srenge.jpg);
+}
+
+.button-img .img button {
+    width: 276px;
+    height: 48px;
+    margin: 12px 0;
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: #212A2F;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.img-text {
+    margin: 17px 8%;
+    margin-top: 17px;
+}
+
+.show_img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.button-img .img-text h3 {
+    font-size: 22px;
+    color: #212A2F;
+    letter-spacing: 0.5px;
+}
+
+.hr-1 {
+    width: 336px;
+    margin: 10px auto;
+}
+
+.img-text p {
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-text > p > span > img {
+    width:30px ;
+    height:30px ;
+    margin-right:12px ;
+}
+
+/* .three-section */
+
+
+.three-section img {
+    width:100% ;
+    height:542px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.but2 {
+    width: 180px;
+    height: 48px;
+    background-color: #212A2F;
+    color: #fff;
+    margin: 0 24px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.but2:hover {
+    background-color: 	 #333333;
+}
+
+.text-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+.text-log h1 {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+}
+
+.text-log p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.imges1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imges img {
+    width:396px ;
+    height:396px ;
+    /* margin: 0 24px; */
+}
+
+.imges h2 {
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 17px;
+    margin-bottom: 138px;
+    margin-left: 18px;
+}
+
+.four-section h1 {
+    font-size: 32px;
+    line-height: 41.92px;
+    margin-bottom: 24px;
+}
+
+.five-section img {
+    width: 100%;
+    height: 542px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.five-section > .text-log > p {
+    text-transform: none;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.five-section > .text-log > button {
+    width:384px ;
+    height:48px ;
+    background-color: #212A2F;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 16.41px;
+    border: 2px solid transparent;
+}
+
+.five-section > .text-log > button:hover {
+    background-color: #333333;
+}
+
+.six-section > .container > h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.six-section img {
+    object-fit: cover;
+}
+
+.six-section > .container > .imges1 .imges h2 {
+    margin-bottom: 6px;
+}
+.six-section > .container > .imges1 .imges h3 {
+    color: #212A2F;
+    font-size:16px ;
+    line-height: 24px;
+    margin-left:18px ;
+    margin-bottom: 138px;
+}
+
+.seven-section > img {
+    width: 100% ;
+    height: 542px;
+    object-fit: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.seven-section > .text-log p {
+    text-transform: none;
+    text-align: center;
+    white-space: pre-line;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.seven-section > .text-log button {
+    width: 384px;
+    height: 48px;
+    background-color: #212A2F;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid transparent;
+}
+
+.seven-section > .text-log button:hover {
+    background-color: #333333;
+}
+
+.eight-section img {
+    object-fit: cover;
+    object-position: top;
+}
+
+.eight-section > .container >h1 {
+    font-size: 32px;
+    line-height: 41.92px;
+    margin-bottom: 24px;
+}
+
+.eight-section > .container > .imges1 > .imges > h2 {
+    margin-bottom: 10px;
+}
+
+.eight-section > .container > .imges1 > .imges > p {
+    margin-left: 18px;
+    font-size:16px ;
+    line-height: 24px;
+    white-space: pre-line;
+    text-transform: none;
+    margin-bottom: 138px;
+    text-align: start;
+}
+
+footer {
+    width: 100%;
+    height: 956px;
+    background-color: #212A2F;
+}
+
+.sign-up > p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 71px;
+    margin-bottom: 6px;
+}
+
+.sign-up > .sign-up1 > input {
+    background-color: #4D5559;
+    width: 302px;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.sign-up > .sign-up1 > button {
+    width:130px ;
+    height:48px ;
+    background-color: #4D5559;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin-left: 12px;
+    border: 1px solid transparent;
+}
+
+.sign-up > .sign-up1 > button:hover {
+    background-color: #333333;
+}
+
+.text-tx {
+    display: flex;
+    gap: 217px;
+    margin-top: 90px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.columns > a {
+    color: #fff;
+
+}
+
+.columns > h1 {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+
+.text-tx {
+    margin-bottom: 84px;
+}
+
+/* Follow */
+
+.follow {
+    display: flex;
+    gap: 168px;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
+.fol h1,p {
+    color: #fff;
+}
+
+.follow > .fol > .logo > a > img {
+    width: 18px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+    margin-top: 15px;
+}
+
+.fol > p {
+    white-space: pre-line;
+    line-height: 18px;   
+}
+
+.fol > h1 {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+}
+
+.logodb > img {
+    width: 78px;
+    height: 120px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flag > img {
+    width: 37px;
+    height: 22px;
+    margin-left: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .end */
+
+.end {
+    text-align: center;    
+}
+
+
+
+
